@@ -10,8 +10,21 @@ body {
   justify-content: center;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
+.main {
+  font-size: 10pt;
+  padding-top: 30pt;
+}
+
+h1 {
+  padding-bottom: 20pt;
+  padding-top: 20pt;
+  font-size: 7pt;
+  text-align: center;
+}
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
